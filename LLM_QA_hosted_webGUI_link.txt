@@ -1,4 +1,4 @@
 Name: Covenant Osiri-Wisdom
 Matric number: 23CG034143
-Live URL: <your_deployed_url_here>
+Live URL: https://llm-qa-project-covenantosiriwisdom.onrender.com
 GitHub repository: https://github.com/Ctgeee/LLM_QA_Project_CovenantOsiriWisdom_23CG034143
