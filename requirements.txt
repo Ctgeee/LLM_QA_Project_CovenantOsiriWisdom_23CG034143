@@ -1,4 +1,18 @@
+
+# Flask web framework (>=2.0)
+# Used to create the Web GUI, handle routes, templates, and HTTP requests
 Flask>=2.0
+
+# Google Gemini (GenAI SDK) client library (>=0.2.0)
+# Provides genai.Client and chat APIs to interact with Google Gemini LLM models
 google-genai>=0.2.0
+
+# python-dotenv (>=1.0)
+# Loads environment variables from a .env file into os.environ
+# Useful for securely storing GEMINI_API_KEY locally without hardcoding
 python-dotenv>=1.0
+
+# Gunicorn WSGI server (>=20.0)
+# Production-ready server for deploying Flask apps on Render.com, Vercel, etc.
+# Starts the app using the entry point (app:app)
 gunicorn>=20.0
