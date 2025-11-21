@@ -1,0 +1,1 @@
+# LLM_QA_Project_CovenantOsiriWisdom_23CG034143
