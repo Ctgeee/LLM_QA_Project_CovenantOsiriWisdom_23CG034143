@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>LLM Q&A System</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🧠 NLP Q&A System</h1>
+      <p>Powered by Google Gemini</p>
+    </header>
+
+    <form method="POST" class="question-form">
+      <input type="text" name="question" placeholder="Type your question here..." value="{{ question }}">
+      <button type="submit">Ask LLM</button>
+    </form>
+
+    {% if processed %}
+    <section class="processed">
+      <h2>Processed Question</h2>
+      <pre>{{ processed | tojson(indent=2) }}</pre>
+    </section>
+    {% endif %}
+
+    {% if answer %}
+    <section class="answer">
+      <h2>Answer</h2>
+      <p>{{ answer }}</p>
+    </section>
+    {% endif %}
+
+    <footer>
+      <p>Made for Project 2 — NLP Q&A by Covenant Osiri-Wisdom</p>
+    </footer>
+  </div>
+</body>
+</html>

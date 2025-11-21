@@ -1,0 +1,4 @@
+Name: Covenant Osiri-Wisdom
+Matric number: 23CG034143
+Live URL: <your_deployed_url_here>
+GitHub repository: <your_repo_link_here>
